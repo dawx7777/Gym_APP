@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1132A"
+    tools:context=".Dashboard">
+
+
+    <ImageView
+        android:layout_width="289dp"
+        android:layout_height="322dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/btnTraining"
+        android:layout_width="204dp"
+        android:layout_height="302dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/play" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+
+            android:background="@color/white"
+            android:layout_alignParentBottom="true"
+            >
+
+
+            <ImageButton
+                android:id="@+id/btncwiczenia"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:layout_marginLeft="8dp"
+                android:backgroundTint="@color/white"
+
+                android:layout_weight="1"
+               android:src="@drawable/btncwiczenia"/>
+
+            <ImageButton
+                android:id="@+id/btsettings"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:backgroundTint="@color/white"
+
+                android:layout_weight="1"
+                android:src="@drawable/btsettings"/>
+
+            <ImageButton
+                android:id="@+id/btncalendar"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+              android:backgroundTint="@color/white"
+                android:layout_weight="1"
+                android:src="@drawable/btncalendar"/>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
